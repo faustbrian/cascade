@@ -1,0 +1,66 @@
+{
+    "name": "cline/cascade",
+    "description": "Multi-source resolution with fallback chains for PHP",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "resolver",
+        "fallback",
+        "cascade",
+        "configuration",
+        "multi-tenant",
+        "credentials"
+    ],
+    "authors": [
+        {
+            "name": "Brian Faust",
+            "email": "brian@cline.sh"
+        }
+    ],
+    "require": {
+        "php": "^8.5.0"
+    },
+    "require-dev": {
+        "cline/coding-standard": "^1.5.8",
+        "orchestra/testbench": "^10.8",
+        "symfony/var-dumper": "^7.4.0"
+    },
+    "suggest": {
+        "ext-pdo": "Required for DatabaseRepository",
+        "psr/simple-cache": "Required for CacheSource and CachedRepository",
+        "symfony/yaml": "Required for YamlRepository"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Cline\\Cascade\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "ergebnis/composer-normalize": true,
+            "pestphp/pest-plugin": true
+        }
+    },
+    "scripts": {
+        "lint": "vendor/bin/ecs check --fix",
+        "refactor": "rector",
+        "test": [
+            "@test:lint",
+            "@test:unit",
+            "@test:types",
+            "@test:refactor"
+        ],
+        "test:lint": "vendor/bin/ecs check",
+        "test:refactor": "rector --dry-run",
+        "test:types": "phpstan",
+        "test:unit": "pest --parallel"
+    }
+}
