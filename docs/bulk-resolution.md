@@ -1,8 +1,3 @@
----
-title: Bulk Resolution
-description: Efficiently resolve multiple keys at once using getMany() in Cascade
----
-
 Cascade supports resolving multiple keys in a single operation, which is more efficient than calling `get()` repeatedly. Use `getMany()` when you need to fetch several related values.
 
 ## Basic Usage

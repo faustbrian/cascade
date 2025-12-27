@@ -1,8 +1,3 @@
----
-title: Advanced Usage
-description: Advanced patterns for using Cascade including conditional sources, custom cache keys, nested chains, and repository patterns
----
-
 This guide covers advanced patterns and techniques for building sophisticated resolution systems with Cascade.
 
 ## Conditional Source Resolution

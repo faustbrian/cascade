@@ -1,8 +1,3 @@
----
-title: Result Metadata
-description: Working with Result objects to access resolved values, source information, and attempted sources in Cascade
----
-
 Result objects provide detailed metadata about the resolution process, including which source provided the value and which sources were attempted.
 
 ## The Result Object

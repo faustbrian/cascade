@@ -1,8 +1,3 @@
----
-title: Sources
-description: Complete guide to all source types in Cascade including CallbackSource, ArraySource, CacheSource, ChainedSource, and NullSource
----
-
 Sources are providers that can fetch values from different storage locations. Cascade includes several built-in source types to cover common use cases.
 
 ## Source Interface

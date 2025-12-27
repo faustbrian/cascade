@@ -1,8 +1,3 @@
----
-title: Repositories
-description: Load resolver configurations from JSON, YAML, databases, and more using Cascade repositories
----
-
 Repositories provide a way to store and load resolver configurations from external sources instead of defining them in code. This enables dynamic resolver management and configuration-driven resolution chains.
 
 ## Repository Interface

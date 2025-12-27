@@ -1,8 +1,3 @@
----
-title: Named Resolvers
-description: Manage multiple independent resolution configurations with named resolvers in Cascade
----
-
 Named resolvers allow you to define and manage multiple independent resolution configurations within a single Cascade instance. Each resolver has its own sources, priorities, and transformers.
 
 ## Why Named Resolvers?

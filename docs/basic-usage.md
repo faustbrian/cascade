@@ -1,8 +1,3 @@
----
-title: Basic Usage
-description: Learn the fundamentals of using Cascade for value resolution with defaults, context, and conditional sources
----
-
 This guide covers the essential patterns for using Cascade in your application.
 
 ## Simple Resolution

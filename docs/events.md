@@ -1,8 +1,3 @@
----
-title: Events
-description: Monitor resolution lifecycle with SourceQueried, ValueResolved, and ResolutionFailed events in Cascade
----
-
 Cascade provides event listeners to monitor the resolution lifecycle. Use events for logging, metrics, debugging, and performance monitoring.
 
 ## Available Events

@@ -1,8 +1,3 @@
----
-title: Conductors
-description: Understand the fluent conductor pattern for building resolution chains
----
-
 Cascade uses the **Conductor Pattern** to provide fluent, chainable APIs for building resolution chains. There are two types of conductors:
 
 ## Source Conductor

@@ -1,8 +1,3 @@
----
-title: Getting Started
-description: Learn how to install and start using Cascade for multi-source resolution with fallback chains
----
-
 ## Installation
 
 Install the package via Composer:

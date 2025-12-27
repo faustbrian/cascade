@@ -1,8 +1,3 @@
----
-title: Cookbook
-description: Real-world recipes and examples for solving common problems with Cascade
----
-
 This cookbook provides complete, production-ready examples for common use cases.
 
 ## Multi-Tenant Credential Management
