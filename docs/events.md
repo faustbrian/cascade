@@ -564,7 +564,7 @@ $cascade->onResolved(function($event) {
 
 ## Next Steps
 
-- Use events with [Bulk Resolution](/cascade/bulk-resolution) for batch monitoring
-- Combine events with [Result Metadata](/cascade/result-metadata) for detailed tracking
-- Explore [Advanced Usage](/cascade/advanced-usage) for complex event patterns
-- See [Cookbook](/cascade/cookbook) for real-world event handling examples
+- Use events with [Bulk Resolution](./bulk-resolution.md) for batch monitoring
+- Combine events with [Result Metadata](./result-metadata.md) for detailed tracking
+- Explore [Advanced Usage](./advanced-usage.md) for complex event patterns
+- See [Cookbook](./cookbook.md) for real-world event handling examples

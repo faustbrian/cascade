@@ -356,6 +356,6 @@ $value = Cascade::using('primary')
 
 ## Next Steps
 
-- [Sources](/cascade/sources) - Understand built-in source types
-- [Events](/cascade/events) - Monitor resolution lifecycle
-- [Cookbook](/cascade/cookbook) - Real-world patterns and recipes
+- [Sources](./sources.md) - Understand built-in source types
+- [Events](./events.md) - Monitor resolution lifecycle
+- [Cookbook](./cookbook.md) - Real-world patterns and recipes

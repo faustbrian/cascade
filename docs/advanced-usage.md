@@ -650,7 +650,7 @@ class PrefetchingCascade
 
 ## Next Steps
 
-- Apply these patterns in [Cookbook](/cascade/cookbook) recipes
-- Use advanced sources with [Events](/cascade/events) for monitoring
-- Combine with [Repositories](/cascade/repositories) for dynamic configuration
-- Explore [Bulk Resolution](/cascade/bulk-resolution) for batch optimization
+- Apply these patterns in [Cookbook](./cookbook.md) recipes
+- Use advanced sources with [Events](./events.md) for monitoring
+- Combine with [Repositories](./repositories.md) for dynamic configuration
+- Explore [Bulk Resolution](./bulk-resolution.md) for batch optimization

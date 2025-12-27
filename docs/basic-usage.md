@@ -341,7 +341,7 @@ class SomeService {
 
 ## Next Steps
 
-- [Conductors](/cascade/conductors) - Deep dive into conductor patterns
-- [Sources](/cascade/sources) - Built-in source types
-- [Named Resolvers](/cascade/named-resolvers) - Managing multiple resolvers
-- [Events](/cascade/events) - Monitoring resolution lifecycle
+- [Conductors](./conductors.md) - Deep dive into conductor patterns
+- [Sources](./sources.md) - Built-in source types
+- [Named Resolvers](./named-resolvers.md) - Managing multiple resolvers
+- [Events](./events.md) - Monitoring resolution lifecycle

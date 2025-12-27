@@ -488,7 +488,7 @@ $cascade->defineResolver('credentials')
 
 ## Next Steps
 
-- Use [Events](/cascade/events) to monitor transformation performance
-- Explore [Bulk Resolution](/cascade/bulk-resolution) with transformers
-- Learn about [Advanced Usage](/cascade/advanced-usage) for complex transformation patterns
-- See [Cookbook](/cascade/cookbook) for real-world transformation examples
+- Use [Events](./events.md) to monitor transformation performance
+- Explore [Bulk Resolution](./bulk-resolution.md) with transformers
+- Learn about [Advanced Usage](./advanced-usage.md) for complex transformation patterns
+- See [Cookbook](./cookbook.md) for real-world transformation examples

@@ -449,7 +449,7 @@ $cascade->defineResolver('api-config')
 
 ## Next Steps
 
-- Learn about [Result Metadata](/cascade/result-metadata) to track which source provided values
-- Use [Transformers](/cascade/transformers) to modify resolved values per resolver
-- Explore [Repositories](/cascade/repositories) to load resolver definitions from config files
-- Set up [Events](/cascade/events) for monitoring resolution across resolvers
+- Learn about [Result Metadata](./result-metadata.md) to track which source provided values
+- Use [Transformers](./transformers.md) to modify resolved values per resolver
+- Explore [Repositories](./repositories.md) to load resolver definitions from config files
+- Set up [Events](./events.md) for monitoring resolution across resolvers

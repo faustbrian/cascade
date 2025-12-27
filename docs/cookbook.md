@@ -702,7 +702,7 @@ class ShippingService
 
 ## Next Steps
 
-- Review [Basic Usage](/cascade/basic-usage) for fundamentals
-- Explore [Conductors](/cascade/conductors) for fluent API patterns
-- Use [Events](/cascade/events) to monitor your implementations
-- Check [Advanced Usage](/cascade/advanced-usage) for optimization patterns
+- Review [Basic Usage](./basic-usage.md) for fundamentals
+- Explore [Conductors](./conductors.md) for fluent API patterns
+- Use [Events](./events.md) to monitor your implementations
+- Check [Advanced Usage](./advanced-usage.md) for optimization patterns

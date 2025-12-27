@@ -105,7 +105,7 @@ Lower priority values are queried first:
 
 ## Next Steps
 
-- Learn about [Basic Usage](/cascade/basic-usage) for detailed examples
-- Explore [Sources](/cascade/sources) to understand different source types
-- Check out [Named Resolvers](/cascade/named-resolvers) for managing multiple configurations
-- See [Events](/cascade/events) for monitoring resolution lifecycle
+- Learn about [Basic Usage](./basic-usage.md) for detailed examples
+- Explore [Sources](./sources.md) to understand different source types
+- Check out [Named Resolvers](./named-resolvers.md) for managing multiple configurations
+- See [Events](./events.md) for monitoring resolution lifecycle

@@ -410,7 +410,7 @@ if ($this->app->isDebug()) {
 
 ## Next Steps
 
-- Learn about [Transformers](/cascade/transformers) to modify resolved values
-- Use [Events](/cascade/events) to monitor resolution lifecycle
-- Explore [Bulk Resolution](/cascade/bulk-resolution) for resolving multiple keys
-- See [Advanced Usage](/cascade/advanced-usage) for complex patterns
+- Learn about [Transformers](./transformers.md) to modify resolved values
+- Use [Events](./events.md) to monitor resolution lifecycle
+- Explore [Bulk Resolution](./bulk-resolution.md) for resolving multiple keys
+- See [Advanced Usage](./advanced-usage.md) for complex patterns

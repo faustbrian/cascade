@@ -480,7 +480,7 @@ $cascade = Cascade::from()
 
 ## Next Steps
 
-- Learn about [Named Resolvers](/cascade/named-resolvers) for managing multiple source configurations
-- Explore [Result Metadata](/cascade/result-metadata) to track which source provided values
-- Use [Transformers](/cascade/transformers) to modify resolved values
-- Set up [Events](/cascade/events) for monitoring source queries
+- Learn about [Named Resolvers](./named-resolvers.md) for managing multiple source configurations
+- Explore [Result Metadata](./result-metadata.md) to track which source provided values
+- Use [Transformers](./transformers.md) to modify resolved values
+- Set up [Events](./events.md) for monitoring source queries

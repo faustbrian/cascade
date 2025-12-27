@@ -596,7 +596,7 @@ $cascade->bindSource('platform', $platformSource);
 
 ## Next Steps
 
-- Combine repositories with [Named Resolvers](/cascade/named-resolvers) for dynamic management
-- Use [Events](/cascade/events) to monitor repository-loaded resolvers
-- Explore [Advanced Usage](/cascade/advanced-usage) for complex repository patterns
-- See [Cookbook](/cascade/cookbook) for real-world repository examples
+- Combine repositories with [Named Resolvers](./named-resolvers.md) for dynamic management
+- Use [Events](./events.md) to monitor repository-loaded resolvers
+- Explore [Advanced Usage](./advanced-usage.md) for complex repository patterns
+- See [Cookbook](./cookbook.md) for real-world repository examples

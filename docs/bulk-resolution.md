@@ -546,7 +546,7 @@ public function loadDatabaseConfig(): array
 
 ## Next Steps
 
-- Use bulk resolution with [Events](/cascade/events) for batch monitoring
-- Combine with [Transformers](/cascade/transformers) for batch processing
-- Explore [Advanced Usage](/cascade/advanced-usage) for optimization patterns
-- See [Cookbook](/cascade/cookbook) for real-world bulk resolution examples
+- Use bulk resolution with [Events](./events.md) for batch monitoring
+- Combine with [Transformers](./transformers.md) for batch processing
+- Explore [Advanced Usage](./advanced-usage.md) for optimization patterns
+- See [Cookbook](./cookbook.md) for real-world bulk resolution examples
