@@ -1,17 +1,19 @@
 ## Table of Contents
 
-1. Overview (`docs/README.md`)
-2. Advanced Usage (`docs/advanced-usage.md`)
-3. Basic Usage (`docs/basic-usage.md`)
-4. Bulk Resolution (`docs/bulk-resolution.md`)
-5. Conductors (`docs/conductors.md`)
-6. Cookbook (`docs/cookbook.md`)
-7. Events (`docs/events.md`)
-8. Named Resolvers (`docs/named-resolvers.md`)
-9. Repositories (`docs/repositories.md`)
-10. Result Metadata (`docs/result-metadata.md`)
-11. Sources (`docs/sources.md`)
-12. Transformers (`docs/transformers.md`)
+1. [Overview](#doc-docs-readme) (`docs/README.md`)
+2. [Advanced Usage](#doc-docs-advanced-usage) (`docs/advanced-usage.md`)
+3. [Basic Usage](#doc-docs-basic-usage) (`docs/basic-usage.md`)
+4. [Bulk Resolution](#doc-docs-bulk-resolution) (`docs/bulk-resolution.md`)
+5. [Conductors](#doc-docs-conductors) (`docs/conductors.md`)
+6. [Cookbook](#doc-docs-cookbook) (`docs/cookbook.md`)
+7. [Events](#doc-docs-events) (`docs/events.md`)
+8. [Named Resolvers](#doc-docs-named-resolvers) (`docs/named-resolvers.md`)
+9. [Repositories](#doc-docs-repositories) (`docs/repositories.md`)
+10. [Result Metadata](#doc-docs-result-metadata) (`docs/result-metadata.md`)
+11. [Sources](#doc-docs-sources) (`docs/sources.md`)
+12. [Transformers](#doc-docs-transformers) (`docs/transformers.md`)
+<a id="doc-docs-readme"></a>
+
 ## Installation
 
 Install the package via Composer:
@@ -114,10 +116,12 @@ Lower priority values are queried first:
 
 ## Next Steps
 
-- Learn about [Basic Usage](./basic-usage.md) for detailed examples
-- Explore [Sources](./sources.md) to understand different source types
-- Check out [Named Resolvers](./named-resolvers.md) for managing multiple configurations
-- See [Events](./events.md) for monitoring resolution lifecycle
+- Learn about [Basic Usage](#doc-docs-basic-usage) for detailed examples
+- Explore [Sources](#doc-docs-sources) to understand different source types
+- Check out [Named Resolvers](#doc-docs-named-resolvers) for managing multiple configurations
+- See [Events](#doc-docs-events) for monitoring resolution lifecycle
+
+<a id="doc-docs-advanced-usage"></a>
 
 This guide covers advanced patterns and techniques for building sophisticated resolution systems with Cascade.
 
@@ -766,10 +770,12 @@ class PrefetchingCascade
 
 ## Next Steps
 
-- Apply these patterns in [Cookbook](./cookbook.md) recipes
-- Use advanced sources with [Events](./events.md) for monitoring
-- Combine with [Repositories](./repositories.md) for dynamic configuration
-- Explore [Bulk Resolution](./bulk-resolution.md) for batch optimization
+- Apply these patterns in [Cookbook](#doc-docs-cookbook) recipes
+- Use advanced sources with [Events](#doc-docs-events) for monitoring
+- Combine with [Repositories](#doc-docs-repositories) for dynamic configuration
+- Explore [Bulk Resolution](#doc-docs-bulk-resolution) for batch optimization
+
+<a id="doc-docs-basic-usage"></a>
 
 This guide covers the essential patterns for using Cascade in your application.
 
@@ -1109,10 +1115,12 @@ class SomeService {
 
 ## Next Steps
 
-- [Conductors](./conductors.md) - Deep dive into conductor patterns
-- [Sources](./sources.md) - Built-in source types
-- [Named Resolvers](./named-resolvers.md) - Managing multiple resolvers
-- [Events](./events.md) - Monitoring resolution lifecycle
+- [Conductors](#doc-docs-conductors) - Deep dive into conductor patterns
+- [Sources](#doc-docs-sources) - Built-in source types
+- [Named Resolvers](#doc-docs-named-resolvers) - Managing multiple resolvers
+- [Events](#doc-docs-events) - Monitoring resolution lifecycle
+
+<a id="doc-docs-bulk-resolution"></a>
 
 Cascade supports resolving multiple keys in a single operation, which is more efficient than calling `get()` repeatedly. Use `getMany()` when you need to fetch several related values.
 
@@ -1657,10 +1665,12 @@ public function loadDatabaseConfig(): array
 
 ## Next Steps
 
-- Use bulk resolution with [Events](./events.md) for batch monitoring
-- Combine with [Transformers](./transformers.md) for batch processing
-- Explore [Advanced Usage](./advanced-usage.md) for optimization patterns
-- See [Cookbook](./cookbook.md) for real-world bulk resolution examples
+- Use bulk resolution with [Events](#doc-docs-events) for batch monitoring
+- Combine with [Transformers](#doc-docs-transformers) for batch processing
+- Explore [Advanced Usage](#doc-docs-advanced-usage) for optimization patterns
+- See [Cookbook](#doc-docs-cookbook) for real-world bulk resolution examples
+
+<a id="doc-docs-conductors"></a>
 
 Cascade uses the **Conductor Pattern** to provide fluent, chainable APIs for building resolution chains. There are two types of conductors:
 
@@ -2015,9 +2025,11 @@ $value = Cascade::using('primary')
 
 ## Next Steps
 
-- [Sources](./sources.md) - Understand built-in source types
-- [Events](./events.md) - Monitor resolution lifecycle
-- [Cookbook](./cookbook.md) - Real-world patterns and recipes
+- [Sources](#doc-docs-sources) - Understand built-in source types
+- [Events](#doc-docs-events) - Monitor resolution lifecycle
+- [Cookbook](#doc-docs-cookbook) - Real-world patterns and recipes
+
+<a id="doc-docs-cookbook"></a>
 
 This cookbook provides complete, production-ready examples for common use cases.
 
@@ -2718,10 +2730,12 @@ class ShippingService
 
 ## Next Steps
 
-- Review [Basic Usage](./basic-usage.md) for fundamentals
-- Explore [Conductors](./conductors.md) for fluent API patterns
-- Use [Events](./events.md) to monitor your implementations
-- Check [Advanced Usage](./advanced-usage.md) for optimization patterns
+- Review [Basic Usage](#doc-docs-basic-usage) for fundamentals
+- Explore [Conductors](#doc-docs-conductors) for fluent API patterns
+- Use [Events](#doc-docs-events) to monitor your implementations
+- Check [Advanced Usage](#doc-docs-advanced-usage) for optimization patterns
+
+<a id="doc-docs-events"></a>
 
 Cascade provides event listeners to monitor the resolution lifecycle. Use events for logging, metrics, debugging, and performance monitoring.
 
@@ -3284,10 +3298,12 @@ $cascade->onResolved(function($event) {
 
 ## Next Steps
 
-- Use events with [Bulk Resolution](./bulk-resolution.md) for batch monitoring
-- Combine events with [Result Metadata](./result-metadata.md) for detailed tracking
-- Explore [Advanced Usage](./advanced-usage.md) for complex event patterns
-- See [Cookbook](./cookbook.md) for real-world event handling examples
+- Use events with [Bulk Resolution](#doc-docs-bulk-resolution) for batch monitoring
+- Combine events with [Result Metadata](#doc-docs-result-metadata) for detailed tracking
+- Explore [Advanced Usage](#doc-docs-advanced-usage) for complex event patterns
+- See [Cookbook](#doc-docs-cookbook) for real-world event handling examples
+
+<a id="doc-docs-named-resolvers"></a>
 
 Named resolvers allow you to define and manage multiple independent resolution configurations within a single Cascade instance. Each resolver has its own sources, priorities, and transformers.
 
@@ -3735,10 +3751,12 @@ $cascade->defineResolver('api-config')
 
 ## Next Steps
 
-- Learn about [Result Metadata](./result-metadata.md) to track which source provided values
-- Use [Transformers](./transformers.md) to modify resolved values per resolver
-- Explore [Repositories](./repositories.md) to load resolver definitions from config files
-- Set up [Events](./events.md) for monitoring resolution across resolvers
+- Learn about [Result Metadata](#doc-docs-result-metadata) to track which source provided values
+- Use [Transformers](#doc-docs-transformers) to modify resolved values per resolver
+- Explore [Repositories](#doc-docs-repositories) to load resolver definitions from config files
+- Set up [Events](#doc-docs-events) for monitoring resolution across resolvers
+
+<a id="doc-docs-repositories"></a>
 
 Repositories provide a way to store and load resolver configurations from external sources instead of defining them in code. This enables dynamic resolver management and configuration-driven resolution chains.
 
@@ -4333,10 +4351,12 @@ $cascade->bindSource('platform', $platformSource);
 
 ## Next Steps
 
-- Combine repositories with [Named Resolvers](./named-resolvers.md) for dynamic management
-- Use [Events](./events.md) to monitor repository-loaded resolvers
-- Explore [Advanced Usage](./advanced-usage.md) for complex repository patterns
-- See [Cookbook](./cookbook.md) for real-world repository examples
+- Combine repositories with [Named Resolvers](#doc-docs-named-resolvers) for dynamic management
+- Use [Events](#doc-docs-events) to monitor repository-loaded resolvers
+- Explore [Advanced Usage](#doc-docs-advanced-usage) for complex repository patterns
+- See [Cookbook](#doc-docs-cookbook) for real-world repository examples
+
+<a id="doc-docs-result-metadata"></a>
 
 Result objects provide detailed metadata about the resolution process, including which source provided the value and which sources were attempted.
 
@@ -4745,10 +4765,12 @@ if ($this->app->isDebug()) {
 
 ## Next Steps
 
-- Learn about [Transformers](./transformers.md) to modify resolved values
-- Use [Events](./events.md) to monitor resolution lifecycle
-- Explore [Bulk Resolution](./bulk-resolution.md) for resolving multiple keys
-- See [Advanced Usage](./advanced-usage.md) for complex patterns
+- Learn about [Transformers](#doc-docs-transformers) to modify resolved values
+- Use [Events](#doc-docs-events) to monitor resolution lifecycle
+- Explore [Bulk Resolution](#doc-docs-bulk-resolution) for resolving multiple keys
+- See [Advanced Usage](#doc-docs-advanced-usage) for complex patterns
+
+<a id="doc-docs-sources"></a>
 
 Sources are providers that can fetch values from different storage locations. Cascade includes several built-in source types to cover common use cases.
 
@@ -5227,10 +5249,12 @@ $cascade = Cascade::from()
 
 ## Next Steps
 
-- Learn about [Named Resolvers](./named-resolvers.md) for managing multiple source configurations
-- Explore [Result Metadata](./result-metadata.md) to track which source provided values
-- Use [Transformers](./transformers.md) to modify resolved values
-- Set up [Events](./events.md) for monitoring source queries
+- Learn about [Named Resolvers](#doc-docs-named-resolvers) for managing multiple source configurations
+- Explore [Result Metadata](#doc-docs-result-metadata) to track which source provided values
+- Use [Transformers](#doc-docs-transformers) to modify resolved values
+- Set up [Events](#doc-docs-events) for monitoring source queries
+
+<a id="doc-docs-transformers"></a>
 
 Transformers allow you to modify values after they've been resolved but before they're returned to the caller. Use them for decryption, type conversion, data enrichment, or any post-processing logic.
 
@@ -5717,7 +5741,7 @@ $cascade->defineResolver('credentials')
 
 ## Next Steps
 
-- Use [Events](./events.md) to monitor transformation performance
-- Explore [Bulk Resolution](./bulk-resolution.md) with transformers
-- Learn about [Advanced Usage](./advanced-usage.md) for complex transformation patterns
-- See [Cookbook](./cookbook.md) for real-world transformation examples
+- Use [Events](#doc-docs-events) to monitor transformation performance
+- Explore [Bulk Resolution](#doc-docs-bulk-resolution) with transformers
+- Learn about [Advanced Usage](#doc-docs-advanced-usage) for complex transformation patterns
+- See [Cookbook](#doc-docs-cookbook) for real-world transformation examples
