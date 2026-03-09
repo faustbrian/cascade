@@ -1,17 +1,17 @@
 ## Table of Contents
 
-1. [Overview](#doc-docs-readme) (`docs/README.md`)
-2. [Advanced Usage](#doc-docs-advanced-usage) (`docs/advanced-usage.md`)
-3. [Basic Usage](#doc-docs-basic-usage) (`docs/basic-usage.md`)
-4. [Bulk Resolution](#doc-docs-bulk-resolution) (`docs/bulk-resolution.md`)
-5. [Conductors](#doc-docs-conductors) (`docs/conductors.md`)
-6. [Cookbook](#doc-docs-cookbook) (`docs/cookbook.md`)
-7. [Events](#doc-docs-events) (`docs/events.md`)
-8. [Named Resolvers](#doc-docs-named-resolvers) (`docs/named-resolvers.md`)
-9. [Repositories](#doc-docs-repositories) (`docs/repositories.md`)
-10. [Result Metadata](#doc-docs-result-metadata) (`docs/result-metadata.md`)
-11. [Sources](#doc-docs-sources) (`docs/sources.md`)
-12. [Transformers](#doc-docs-transformers) (`docs/transformers.md`)
+1. [Overview](#doc-docs-readme)
+2. [Advanced Usage](#doc-docs-advanced-usage)
+3. [Basic Usage](#doc-docs-basic-usage)
+4. [Bulk Resolution](#doc-docs-bulk-resolution)
+5. [Conductors](#doc-docs-conductors)
+6. [Cookbook](#doc-docs-cookbook)
+7. [Events](#doc-docs-events)
+8. [Named Resolvers](#doc-docs-named-resolvers)
+9. [Repositories](#doc-docs-repositories)
+10. [Result Metadata](#doc-docs-result-metadata)
+11. [Sources](#doc-docs-sources)
+12. [Transformers](#doc-docs-transformers)
 <a id="doc-docs-readme"></a>
 
 ## Installation
